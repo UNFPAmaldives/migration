@@ -65,7 +65,7 @@ var map = L.map('map', {
 L.control.layers({ 'Satellite': satellite, 'Terrain': esriMap, 'Watercolor': watercolor, 'mapzen': mapzen}).addTo(map);
 
 // Load the atolls GeoJSON file
-d3.json('http://codepen.io/laissezpasser/pen/KzGaVJ.js', function(error, atolls) {
+d3.json('http://unfpamaldives.github.io/atolls.geoJson', function(error, atolls) {
     if (error) throw error;
 
     var atollLayer = L.geoJson(atolls, {
