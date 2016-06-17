@@ -26,11 +26,13 @@ p3 {
     margin-left: 0;
     margin-right: 0;
 	font: 14px "unfpabold";
+	font-weight: bold
 }
 p4 { 
     margin-left: 0;
     margin-right: 0;
 	font: 14px "unfpatext";
+	font-weight: bold
 }
 
 
