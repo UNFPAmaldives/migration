@@ -1,59 +1,38 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
 
 @font-face {
-    font-family: 'FranklinITCProLight';
-    src: url("http://mpop.xyz/fonts/Franklin/FranklinITCProLight.ttf");
+    font-family: 'unfpabold';
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-bold-webfont.eot");
 }
 @font-face {
-    font-family: 'FranklinITCProThin';
-    src: url("http://mpop.xyz/fonts/Franklin/FranklinITCProThin.ttf");
+    font-family: 'unfpasemibold';
+"    src: url("http://unfpamaldives.github.io/migration/css/unfpa-semibold-webfont.eot");
 }
 @font-face {
-    font-family: 'FranklinITCProBold';
-    src: url("http://mpop.xyz/fonts/Franklin/FranklinITCProBold.ttf");
+    font-family: 'unfpatext';
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-text-webfont.eot");
 }
 @font-face {
-    font-family: 'AvenirNextLTPro-Regular';
-    src: url("http://mpop.xyz/fonts/Avenir/AvenirNextLTPro-Regular.otf");
+    font-family: 'unfpasemibolditalic';
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-semibolditalic-webfont.eot");
 }
 @font-face {
-    font-family: 'AvenirNextLTPro-Demi';
-    src: url("http://mpop.xyz/fonts/Avenir/AvenirNextLTPro-Demi.otf");
+    font-family: 'unfpatextitalic';
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-textitalic-webfont.eot");
 }
-@font-face {
-    font-family: 'AvenirNextLTPro-Bold';
-    src: url("http://mpop.xyz/fonts/Avenir/AvenirNextLTPro-Bold.otf");
-}
-@font-face {
-    font-family: 'Franklin Gothic Medium';
-    src: url("http://mpop.xyz/fonts/Franklin/Franklin Gothic Medium.ttf");
-}
-@font-face {
-    font-family: 'PostoniStandardBold';
-    src: url("http://mpop.xyz/fonts/postoni/PostoniStandardBold.otf");
-}
-@font-face {
-    font-family: 'PostoniStandardRegular';
-    src: url("http://mpop.xyz/fonts/postoni/PostoniStandardRegular.otf");
-}
-@font-face {
-    font-family: 'PostoniTitlingRegular';
-    src: url("http://mpop.xyz/fonts/postoni/PostoniTitlingRegular.ttf");
-}
-@font-face {
-    font-family: 'Postoni-Display-Regular';
-    src: url("http://mpop.xyz/fonts/postoni/Postoni-Display-Regular.ttf");
-}
+
 
 p3 { 
     margin-left: 0;
     margin-right: 0;
-	font: 14px "FranklinITCProBold";
+	font: 14px "unfpabold";
+	font-weight: bold
 }
 p4 { 
     margin-left: 0;
     margin-right: 0;
-	font: 14px "FranklinITCProLight";
+	font: 14px "unfpatext";
+	font-weight: normal
 }
 
 
@@ -69,7 +48,7 @@ p4 {
 	border-width: 4px;
 	color: #111;
 	display: block;
-	font: 14px/20px "FranklinITCProBold";
+	font: 14px/20px "unfpabold";
 	padding: 1px 6px;
 	position: absolute;
 	-webkit-user-select: none;
@@ -112,4 +91,6 @@ p4 {
 	content: "";
 }
 .leaflet-container {
-    font: 14px/ "FranklinITCProLight";
+    font: 14px/ "unfpatext";
+  	font-weight: normal
+
