@@ -13,7 +13,10 @@ body {
 
 white-space: nowrap;    
 }
-
+@font-face {
+    font-family: 'unfpabold';
+    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-bold-webfont.eot");
+}
 @font-face {
     font-family: 'unfpasemibold';
 "    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-semibold-webfont.eot");
