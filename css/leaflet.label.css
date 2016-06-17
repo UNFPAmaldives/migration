@@ -12,45 +12,14 @@
     font-family: 'FranklinITCProBold';
     src: url("http://mpop.xyz/fonts/Franklin/FranklinITCProBold.ttf");
 }
-@font-face {
-    font-family: 'AvenirNextLTPro-Regular';
-    src: url("http://mpop.xyz/fonts/Avenir/AvenirNextLTPro-Regular.otf");
-}
-@font-face {
-    font-family: 'AvenirNextLTPro-Demi';
-    src: url("http://mpop.xyz/fonts/Avenir/AvenirNextLTPro-Demi.otf");
-}
-@font-face {
-    font-family: 'AvenirNextLTPro-Bold';
-    src: url("http://mpop.xyz/fonts/Avenir/AvenirNextLTPro-Bold.otf");
-}
-@font-face {
-    font-family: 'Franklin Gothic Medium';
-    src: url("http://mpop.xyz/fonts/Franklin/Franklin Gothic Medium.ttf");
-}
-@font-face {
-    font-family: 'PostoniStandardBold';
-    src: url("http://mpop.xyz/fonts/postoni/PostoniStandardBold.otf");
-}
-@font-face {
-    font-family: 'PostoniStandardRegular';
-    src: url("http://mpop.xyz/fonts/postoni/PostoniStandardRegular.otf");
-}
-@font-face {
-    font-family: 'PostoniTitlingRegular';
-    src: url("http://mpop.xyz/fonts/postoni/PostoniTitlingRegular.ttf");
-}
-@font-face {
-    font-family: 'Postoni-Display-Regular';
-    src: url("http://mpop.xyz/fonts/postoni/Postoni-Display-Regular.ttf");
-}
 
-p3 { 
+
+.p3 { 
     margin-left: 0;
     margin-right: 0;
 	font: 14px "FranklinITCProBold";
 }
-p4 { 
+.p4 { 
     margin-left: 0;
     margin-right: 0;
 	font: 14px "FranklinITCProLight";
