@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" rel="stylesheet" type="text/css"/>
+<link href="css/leaflet.label.css" rel="stylesheet" type="text/css"/>
+<link href="http://mpop.xyz/graphics/drone-db/wpbootstrap.min.css" rel="stylesheet">
+<link href="http://mpop.xyz/graphics/drone-db/wpbootstrap.css" rel="stylesheet">
+<link href="http://mpop.xyz/graphics/drone-db/wpbootstrap-responsive.css" rel="stylesheet">
+<link href="css/app.css" rel="stylesheet" type="text/css"/>
+    <link href="http://mpop.xyz/graphics/drone-db/inline.css" rel="stylesheet">
+    <link href="http://mpop.xyz/graphics/drone-db/wp_002.css" rel="stylesheet">
+    <link href="http://mpop.xyz/graphics/drone-db/wp-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://mpop.xyz/graphics/drone-db/pretty-comments.css">
+    <link href="http://mpop.xyz/graphics/drone-db/mobile-base.css" rel="stylesheet">
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     
+     ga('create', 'UA-73612892-1', 'auto');
+     ga('send', 'pageview');
+     </script>
+    <link href="http://mpop.xyz/graphics/drone-db/wpbootstrap.css" rel="stylesheet">
+    <link href="http://mpop.xyz/graphics/drone-db/wpbootstrap-responsive.css" rel="stylesheet">
+    <link href="http://mpop.xyz/graphics/drone-db/mobile-base.css" rel="stylesheet">
+        <link href="http://mpop.xyz/graphics/drone-db/wp_002.css" rel="stylesheet">
+    <link href="http://mpop.xyz/graphics/drone-db/fonts.css" rel="stylesheet">
+
+
+
+
+        <!-- GLOBAL RESPONSIVE HEADER -->
+        <div id="nav">
+            <a class="branding" href="http://mpop.xyz/">
+                <div class="hidden-phone">
+                    <img class="" src="http://mpop.xyz/graphics/drone-db/banner-high-res-colorized@100.png" alt="Maldives Population Portal">
+                        </div>
+                <div class="visible-phone">
+                    <img class="" src="http://mpop.xyz/graphics/drone-db/mpop-square-white-60.png" alt="Maldives Population Portal">
+                        </div>
+            </a>
+            <!--         <p class="title">
+            <a href="#main-container">A swing of beauty</a>
+        </p> -->
+            <ul class="sections nav">
+                <li class="share">
+                    <a href="#">
+                        <span class="text">Share</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li id="dd-share-em"><a href="" title="Email" target="_blank"><i class="icon-envelope-alt mr5"></i> Email</a></li>
+                        <li class="divider show-for-medium-and-up"></li>
+                        <li id="dd-share-fb"><a href="" target="_blank"><i class="icon-facebook mr5"></i> Facebook</a></li>
+                        <li class="divider show-for-medium-and-up"></li>
+                        <li id="dd-share-tw"><a href="" target="_blank"><i class="icon-twitter mr5"></i> Tweet</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="comment visible-desktop">
+                <a href="#comments">
+                    <span class="icon">
+                        <img src="//www.washingtonpost.com/wp-srv/special/sports/cycling/images/comment-icon.png">
+                    </span>
+                    <span class="text">Comment</span>
+                </a>
+            </li> -->
+        </ul>
+        <div class="clear"></div>
+    </div>
+
+<!-- END GLOBAL RESPONSIVE NAV -->
+
+<!-- SECTION Logo Container for Header (remove "hidden" and add "visible-phone" class to show and hide toplogo) -->
+<div id="mobile-header" class="visible-phone">
+    <div class="navbar tight navbarlogo navsection">
+        <div class="pagination-centered">
+            <!-- Replace this link with section direct link or leave as home -->
+            <a href="http://mpop.xyz/graphics/" title="Maldives Population Portal">
+                <img src="http://mpop.xyz/graphics/drone-db/MPOPallwhite30h.png" class="MPOP tiny" alt="Maldives Population Portal">
+                    <!-- REPLACE with Section name -->
+                    <h1 id="pagetitle" class="wptitle blacktxt">Migration map</h1>
+                    </a>
+        </div>
+    </div>
+</div>
+<!-- END SECTION Logo Container for Header -->
+<script>
+/*
+        <!-- GLOBAL RESPONSIVE HEADER -->
+        <div id="nav">
+            <a class="branding" href="http://mpop.xyz/">
+                <div class="hidden-phone">
+                    <img class="" src="drone-db/banner-high-res-colorized@100.png" alt="Maldives Population Portal">
+                        </div>
+                <div class="visible-phone">
+                    <img class="" src="drone-db/mpop-square-white-60.png" alt="Maldives Population Portal">
+                        </div>
+            </a>
+            <!--         <p class="title">
+            <a href="#main-container">A swing of beauty</a>
+        </p> -->
+            <ul class="sections nav">
+                <li class="share">
+                    <a href="#">
+                        <span class="text">Share</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li id="dd-share-em"><a href="" title="Email" target="_blank"><i class="icon-envelope-alt mr5"></i> Email</a></li>
+                        <li class="divider show-for-medium-and-up"></li>
+                        <li id="dd-share-fb"><a href="" target="_blank"><i class="icon-facebook mr5"></i> Facebook</a></li>
+                        <li class="divider show-for-medium-and-up"></li>
+                        <li id="dd-share-tw"><a href="" target="_blank"><i class="icon-twitter mr5"></i> Tweet</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="comment visible-desktop">
+                <a href="#comments">
+                    <span class="icon">
+                        <img src="//www.washingtonpost.com/wp-srv/special/sports/cycling/images/comment-icon.png">
+                    </span>
+                    <span class="text">Comment</span>
+                </a>
+            </li> -->
+        </ul>
+        <div class="clear"></div>
+    </div>
+
+<!-- END GLOBAL RESPONSIVE NAV -->
+
+<!-- SECTION Logo Container for Header (remove "hidden" and add "visible-phone" class to show and hide toplogo) -->
+<div id="mobile-header" class="visible-phone">
+    <div class="navbar tight navbarlogo navsection">
+        <div class="pagination-centered">
+            <!-- Replace this link with section direct link or leave as home -->
+            <a href="http://mpop.xyz/graphics/" title="Maldives Population Portal">
+                <img src="drone-db/MPOPallwhite30h.png" class="MPOP tiny" alt="Maldives Population Portal">
+                    <!-- REPLACE with Section name -->
+                    <h1 id="pagetitle" class="wptitle blacktxt">Visualizations</h1>
+                    </a>
+        </div>
+    </div>
+</div>
+<!-- END SECTION Logo Container for Header -->
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- !!!!!!!!!! MAIN CONTENT STARTS HERE !!!!!!!!!! -->
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+*/
+
+
+
+
+
+
+/* Begin Config */
+var config = {
+    baseMapProvider: 'esri',    // Valid values: esri, osm
+    startLatLng: [3.175, 73.509],
+    startZoom: 9,
+    linePopup: 'hover',                 // Valid values: hover, click
+    datasets: {
+        "Male' and atolls": {
+            linkFile: 'population_sankey_maleandatolls.csv',  // data file name (may include path)
+            weightMin: 1,
+            weightMax: 30,
+            lineColorMode: 'fixed',     // Valid values: fixed, random, weight, atoll or any color name
+            lineColorIn: 'orange',         // Valid values: any color name
+            lineColorOut: 'violet',      // Valid values: any color name
+            skipValueThreshold: 1,
+            skipWeightThreshold: 0,
+            active: true
+        },
+        "To Male'": {
+            linkFile: 'population_sankey_maleonly.csv',  // data file name (may include path)
+            weightMin: 1,
+            weightMax: 40,
+            lineColorMode: 'atoll',     // Valid values: fixed, random, weight, atoll or any color name
+            lineColorIn: 'orange',         // Valid values: any color name
+            lineColorOut: 'violet',      // Valid values: any color name
+            skipValueThreshold: 1,
+            skipWeightThreshold: 0,
+            active: false
+        },
+        "Among atolls": {
+            linkFile: 'population_sankey_wo_male.csv',  // data file name (may include path)
+            weightMin: 1,
+            weightMax: 40,
+            lineColorMode: 'fixed',     // Valid values: fixed, random, weight, atoll or any color name
+            lineColorIn: 'orange',         // Valid values: any color name
+            lineColorOut: 'violet',      // Valid values: any color name
+            skipValueThreshold: 1,
+            skipWeightThreshold: 0,
+            active: false
+        }
+    }
+};
+/* End Config */
+</script>
+</head>
+<body>
+<div id="map"></div>
+<!-- 
+<div id="main-container" class="drones main-content">
+        <div class="container">
+            <div class="intro-wrapper mt20">
+                <p class="franklin kicker caps text-center"><strong><a href="http://mpop.xyz" target="_blank">Back to MPop</a>: Migrants in Maldives</strong></p>
+                <h1 class="postoni large text-center">Maldivians on the move</h1>
+                <p class="franklin large text-center">By John Zuwasti Curran, <span style="color: #a00">Updated 13 May, 2016</span>, originally published December 12, 2015.</p>
+<p class="franklin kicker caps xx-marleft xx-marright-intro"><strong>Where is everyone going?</strong></p>
+<p class="body large georgia xx-marleft xx-marright-intro">This visualization depicts where Maldivians migrate. The page is under construction. This section will contain some expository text. It needs to be beautified, and I hope to add the navbar from mpop.xyz/graphics. Lorem ipsum, everyone! </p>
+-->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.9/d3.min.js"></script>
+<script src="js/leaflet-providers.js"></script>
+<script src="js/leaflet.polylinedecorator.min.js"></script>
+<script src="js/leaflet.label.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
