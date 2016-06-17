@@ -15,26 +15,22 @@ white-space: nowrap;
 }
 @font-face {
     font-family: 'unfpabold';
-    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-bold-webfont.eot");
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-bold-webfont.eot");
 }
 @font-face {
     font-family: 'unfpasemibold';
-"    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-semibold-webfont.eot");
+"    src: url("http://unfpamaldives.github.io/migration/css/unfpa-semibold-webfont.eot");
 }
 @font-face {
     font-family: 'unfpatext';
-    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-text-webfont.eot");
-}
-@font-face {
-    font-family: 'unfpatext';
-    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-text-webfont.eot");
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-text-webfont.eot");
 }
 @font-face {
     font-family: 'unfpasemibolditalic';
-    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-semibolditalic-webfont.eot");
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-semibolditalic-webfont.eot");
 }
 @font-face {
     font-family: 'unfpatextitalic';
-    src: url("http://unfpamaldives.github.io/migration/css/assets/unfpa-textitalic-webfont.eot");
+    src: url("http://unfpamaldives.github.io/migration/css/unfpa-textitalic-webfont.eot");
 }
 
