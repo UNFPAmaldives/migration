@@ -17,6 +17,9 @@
      </script>
 <script>
 
+
+
+
 /* Begin Config */
 var config = {
     baseMapProvider: 'esri',    // Valid values: esri, osm
@@ -49,7 +52,7 @@ var config = {
         "Among atolls": {
             linkFile: 'population_sankey_wo_male.csv',  // data file name (may include path)
             weightMin: 1,
-            weightMax: 40,
+            weightMax: 5,
             lineColorMode: 'fixed',     // Valid values: fixed, random, weight, atoll or any color name
             lineColorIn: 'orange',         // Valid values: any color name
             lineColorOut: 'violet',      // Valid values: any color name
@@ -64,7 +67,16 @@ var config = {
 </head>
 <body>
 <div id="map"></div>
-
+<!--
+<div id="main-container" class="drones main-content">
+        <div class="container">
+            <div class="intro-wrapper mt20">
+                <p class="franklin kicker caps text-center"><strong><a href="http://mpop.xyz" target="_blank">Back to MPop</a>: Migrants in Maldives</strong></p>
+                <h1 class="postoni large text-center">Maldivians on the move</h1>
+                <p class="franklin large text-center">By John Zuwasti Curran, <span style="color: #a00">Updated 13 May, 2016</span>, originally published December 12, 2015.</p>
+<p class="franklin kicker caps xx-marleft xx-marright-intro"><strong>Where is everyone going?</strong></p>
+<p class="body large georgia xx-marleft xx-marright-intro">This visualization depicts where Maldivians migrate. The page is under construction. This section will contain some expository text. It needs to be beautified, and I hope to add the navbar from mpop.xyz/graphics. Lorem ipsum, everyone! </p>
+-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.9/d3.min.js"></script>
