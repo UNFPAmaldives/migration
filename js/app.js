@@ -228,7 +228,7 @@ function renderDataset(dataName) {
                     {
                         color: lineColor,
                         weight: lineWeight,
-                        smoothFactor: 1,
+                        smoothFactor: 100,
                         opacity: 0.5,
                         fill: false,
                         class: path
