@@ -9,5 +9,5 @@ c=d("#main-container");a();b.find("li.share").on("mouseenter",function(){d(this)
 d(this).find(".dropdown-menu").hide();}else{if(mobile_browser===1||ipad_browser===1){d(this).addClass("show-dd-menu");d(this).find(".dropdown-menu").show();
 }}});b.find("li.share").children("a").on("click",function(g){g.preventDefault();});var f=getParameters(document.URL);if(f.template&&f.template==="iframe"){d("body").addClass("iframe").show().css("display","block");
 d("#main-container .main-content").siblings().hide();}});function a(){var k=d("link[rel=canonical]").attr("href"),g=d("link[rel=shorturl]").attr("href"),h=d('meta[name="twitter:title"]').attr("content"),f=d('meta[name="twitter:site"]').attr("content");
-var j="mailto:?subject="+h+" "+k;d("#dd-share-em a").attr("href",j);var l="https://facebook.com/dialog/feed?app_id=41245586762&link="+k+"&name="+h+"&redirect_uri="+k;
+var j="mailto:?subject="+h+" "+k;d("#dd-share-em a").attr("href",j);var l="https://facebook.com/dialog/feed?app_id=1203881719652746&link="+k+"&name="+h+"&redirect_uri="+k;
 d("#dd-share-fb a").attr("href",l);var i="http://twitter.com/intent/tweet?text="+encodeURI(h+" "+g+" via "+f);d("#dd-share-tw a").attr("href",i);}})(jQuery);
