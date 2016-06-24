@@ -228,14 +228,14 @@ function renderDataset(dataName) {
                     {
                         color: lineColor,
                         weight: lineWeight,
-                        smoothFactor: 100,
-                        opacity: 0.5,
+                        smoothFactor: 1,
+                        opacity: 0.1,
                         fill: false,
                         class: path
                     });
 
                 var arrow = L.polylineDecorator(line, { patterns: [{
-                        offset: '55%', 
+                        offset: '50%', 
                         symbol: L.Symbol.arrowHead({
                             polygon: true, 
                             pathOptions: {
@@ -253,12 +253,12 @@ function renderDataset(dataName) {
                         }
 
                         this.setStyle({
-                            opacity: 1
+                            opacity: .65
                         });
                     })
                     .on('mouseout', function(e) {
                         this.setStyle({
-                            opacity: 0.5
+                            opacity: 0.17
                         });
                     })
                     .addTo(map);

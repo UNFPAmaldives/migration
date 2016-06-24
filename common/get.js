@@ -1,1 +1,0 @@
-Krux.ns._default.kxjsonp_userdata({"status":"200","body":{"code":"no_segments","kuid":"KPnD6eAx","kuid_long":"p87ftm5i7","kfuid":"KWaS0Q8q","geo":{"domain":null,"country":"mv","dma":null,"zip":"0","longitude":"73.5088","latitude":"4.1758","region":"mle"},"technographics":{"browser":"Firefox 4","manufacturer":"Apple Inc.","device":"Computer","os":"Mac OS X"}}});
